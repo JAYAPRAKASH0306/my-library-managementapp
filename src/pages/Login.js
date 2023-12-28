@@ -30,7 +30,10 @@ const Login = () => {
       <div className="nav-bar-2">
         <div className="row py-3">
           <div className="col-6">
-            <h3 className="nav-bar ps-3 fs-1">Library Management</h3>
+            <h3 className="nav-bar ps-3 fs-1">Library Management</h3><br/>
+            <h5>DEFAULT LOGIN CREDENTIALS</h5>
+            <h6>MAILID:NEWUSER@GMAIL.COM</h6>
+            <h6>PASSWORD:NEWUSER@123</h6>
           </div>
         </div>
       </div>
