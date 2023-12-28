@@ -1,22 +1,14 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const Homepage = () => {
   return (
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mt-5">
-      <div class="col-9 col-sm-8 col-lg-6">
-        <img
-          src="https://img.freepik.com/premium-vector/serious-concentrated-developer-programming-sites_316839-2216.jpg"
-          class="d-block mx-lg-auto img-fluid"
-          alt="Bootstrap Themes"
-          width="600"
-          height="500"
-          loading="lazy"
-        />
-      </div>
-      <div class="text col-lg-5">
-        <h1 class="display-5 fw-bold lh-1 mb-3 text-center">
-          Library Management System
-        </h1>
+    <div>
+      <Navbar/>
+      <div className="row">
+        <div className="col text-center p-5 ">
+          <h2 className="fw-bold heading h1">Library Management System</h2>
+        </div>
       </div>
     </div>
   );

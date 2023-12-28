@@ -73,7 +73,7 @@ const Author = ({ author, setAuthor, authedit }) => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="author">BioGraphy</label><br/>
+              <label htmlFor="author">BioGraphy</label>
               <textarea
                 id="bio"
                 type="text"
@@ -85,7 +85,7 @@ const Author = ({ author, setAuthor, authedit }) => {
               {formik.errors.bio ? <p>{formik.errors.bio}</p> : null}
             </div>
 
-            <button className="btn btn-primary"type="submit">
+            <button className="btn btn-primary" type="submit">
               Add the Details
             </button>
           </div>

@@ -5,12 +5,15 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <ul class="nav bg-dark">
+        <li className="nav-items brand">
+          Library 
+        </li>
         <li class="nav-item">
           <NavLink
             class="nav-link active"
             style={{ color: "white", textDecoration: "inherit" }}
             aria-current="page"
-            to="/"
+            to="/home"
           >
             Home
           </NavLink>
